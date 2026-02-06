@@ -1,0 +1,4 @@
+!PCs
+conf t
+ip address dhcp
+save
