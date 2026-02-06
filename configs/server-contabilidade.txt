@@ -1,0 +1,7 @@
+!Server Contab
+conf t
+int f0/0
+ip address 109.4.38.177 255.255.255.192
+ip http server
+exit
+wr
