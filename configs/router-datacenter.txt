@@ -1,0 +1,31 @@
+!Router Datacenter
+conf t
+int f1/0
+ip address 172.109.7.3 255.255.255.0
+no sh
+exit
+int f0/0
+ip address 109.4.38.193 255.255.255.224
+no sh
+exit
+exit
+wr
+conf t
+ip dhcp pool datacenter
+network 109.4.38.0 255.255.255.224
+default-router 109.4.38.193
+exit
+ip dhcp excluded-address 109.4.38.0 109.4.38.193
+ip dhcp excluded-address 109.4.38.218 109.4.38.255
+int f0/0
+ip dhcp pool datacenter
+exit
+exit
+wr
+conf t
+router ospf 1
+network 172.109.7.0 255.255.255.0 area 0
+network 109.4.38.0 255.255.255.224 area 0
+exit
+exit
+wr
