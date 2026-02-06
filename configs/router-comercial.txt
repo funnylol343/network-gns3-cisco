@@ -1,0 +1,45 @@
+!Router Comercial
+conf t
+int f1/0
+ip address 172.109.7.1 255.255.255.0
+no sh
+exit
+int f0/0
+ip address 109.4.38.129 255.255.255.192
+no sh
+exit
+int f0/1
+ip address 172.109.4.1 255.255.255.0
+no sh
+exit
+exit
+wr
+conf t
+ip dhcp pool staff_comercial
+network 109.4.38.0 255.255.255.192
+default-router 109.4.38.129
+exit
+ip dhcp pool guest_comercial
+network 172.109.4.0 255.255.255.0
+default-router 172.109.4.1
+exit
+ip dhcp excluded-address 109.4.38.0 109.4.38.129
+ip dhcp excluded-address 109.4.38.177 109.4.38.255
+ip dhcp excluded-address 172.109.4.0 172.109.4.1
+ip dhcp excluded-address 172.109.4.255
+int f0/0
+ip dhcp pool staff_comercial
+exit
+int f0/1
+ip dhcp pool guest_comercial
+exit
+exit
+wr
+conf t
+router ospf 1
+network 172.109.7.0 255.255.255.0 area 0
+network 172.109.4.0 255.255.255.0 area 0
+network 109.4.38.0 255.255.255.192 area 0
+exit
+exit
+wr
