@@ -45,6 +45,8 @@ A solução proposta seguiu uma topologia hierárquica. Cada departamento foi li
 
 O dimensionamento das máscaras de sub-rede (`/25`, `/26`, `/27`) foi calculado para satisfazer o número mínimo de hosts exigido em cada segmento, otimizando o espaço de endereçamento.
 
+https://github.com/goncalofigueira59/academic-network-gns3-cisco/blob/main/gns3-project/Aspeto%20da%20Rede.jpg
+
 ### 3. Implementação Técnica: Configuração de Dispositivos
 
 A configuração foi realizada integralmente através da CLI (Command Line Interface) no GNS3.
